@@ -1,0 +1,159 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrapper{
+	width: 1200px;
+	background: url("../images/фон.jpg");
+	margin: 0 auto;
+	
+}
+
+.main{
+	
+	width: 1100px;
+	
+}
+.in_float{
+	float: left;
+	margin: 20px 0 0 70px;
+	padding-left: 20px;
+	
+}
+
+.in_float1{
+	padding: 40px 0 0 10px;
+	float: left;
+ 
+}
+.in_float2{
+	float: right;
+	margin: 40px 90px 0 0;
+	line-height: 1.5;
+}
+
+.in_float2 p:before{
+	content: "";
+	background: url("../images/sprayty.jpg");
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	background-position: 0 0;	
+}
+
+
+.in_float2 p+p:before{
+ background-position: -120px -175px;
+}
+.in_float2 p+p+p:before{
+	background-position: -300px -175px;
+   }
+
+.clr{
+	clear: both;
+}
+
+.firstmenu{
+	background: black;
+	margin: 0 10px 0 20px;
+	padding: 0 50px 0 50px;
+	font-size: 0;
+	outline: 2px solid gray;
+	width: 977px;	
+}
+.menu{
+	text-align: center;
+	
+}
+.menu li {
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px 10px;
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+	border-left: 1px solid white;	
+}
+.menu li:first-child{
+	border-left: none;
+}
+ .menu li:hover{
+	background: red;
+}
+.information{
+	margin: 10px 30px 0px 30px;
+	width: 930px;
+	padding: 5px 0 0 50px;
+}
+
+.information>p{
+	
+	text-align: justify;
+}
+.middle{
+	padding: 10px 0 0 85px;
+	
+	
+}
+.menu2 li{
+	padding-bottom: 5px;
+}
+ 
+.menu2 li a{
+	color: black;
+	text-decoration: none;
+	border-bottom: 2px dotted grey;	
+}
+.banner{
+  display: inline-block;
+  position: relative;
+  
+}
+.banner>span p{
+	position: absolute;
+	top: 50%;
+	text-align: left;
+	
+}
